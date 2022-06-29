@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--minha css-->
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>Página Inicial Fintech</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-success">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light" href="#">Fintech</a>
+            <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-light"></span>
+            </button>
+            <div class="collapse navbar-collapse text-light" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Minhas Finanças</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled text-light">Configurações de Perfil</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="pesquisar">
+                    <input class="form-control me-2" type="pesquisar" placeholder="Pesquisar" aria-label="Pesquisar">
+                    <button class="btn btn-outline-success text-light" type="submit">Pesquisar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container my-3"> <!--bg=background; success=verde-->
+        <h1 class="bg-success text-light display-3 my-4 p-4">Menu Fintech</h1> <!--text-light=texto branco; display=fonte; 6=tamanho-->
+        <p class="lead"> Pronto para mudar sua vida financeira? Vamos nessa! Aqui você encontrará as fases essenciais para começar a economizar sua renda e conseguir aumentá-la conforme o tempo. O menu inicial está dividido em apenas 3 fases, onde você aprenderá como controlar seu dinheiro de forma eficaz! </p>
+        <a href="" class="btn btn-success btn-sm">Mais informações</a>
+        <figure class="my-4">
+            <img src="economizar-contas.jpg" alt="economizar contas" class="img-fluid">
+        </figure> 
+        <hr>
+        <!--Usando o Grid do Bootstrap celular+tablet+tela maior-->
+        <!--linha do grid-->
+        <div class="row my-5">
+            <!--1a coluna do grid-->
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 my-2">
+                <div class="card">
+                    <img src="./contando moedas.jpg" class="card-img-top" alt="contando moedas">
+                    <div class="card-body">
+                        <h5 class="card-title">Economizar Dinheiro</h5>
+                        <p class="card-text">Você precisa saber como economizar para não ter prejuízos em sua vida.</p>
+                        <a href="#" class="btn btn-success">Quero economizar</a>
+                    </div>
+                </div>
+            </div>
+            <!--fim 1a coluna do grid-->
+
+            <!--2a coluna do grid-->
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 my-2">
+                <div class="card">
+                    <img src="./dinheiro-cama.jpg" class="card-img-top" alt="dinheiro na cama">
+                    <div class="card-body">
+                        <h5 class="card-title">Construir riqueza</h5>
+                        <p class="card-text">Como começar a construir sua própria renda?
+                            Aqui você descobre.</p>
+                        <a href="#" class="btn btn-success">Quero construir</a>
+                    </div>
+                </div>
+            </div>
+            <!--fim 2a coluna do grid-->
+
+            <!--3a coluna do grid-->
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 my-2">
+                <div class="card">
+                    <img src="./dinheiro-volante.jpg" class="card-img-top" alt="dinheiro bmw">
+                    <div class="card-body">
+                        <h5 class="card-title">Viver de dividendos</h5>
+                        <p class="card-text">Aqui é para quem já tem bastante dinheiro e procura multiplicá-los.</p>
+                        <a href="#" class="btn btn-success">Quero multiplicar</a>
+                    </div>
+                 </div>
+            </div>
+            <!--fim 3a coluna do grid-->
+
+            <!--4a coluna do grid-->
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 my-2">
+                <div class="card">
+                    <img src="./mercado-de-acoes.jpg" class="card-img-top" alt="Mercado de Ações">
+                    <div class="card-body">
+                        <h5 class="card-title">Como está o mercado?</h5>
+                        <p class="card-text">Venha conhecer mais sobre as ações para investir.</p>
+                        <a href="#" class="btn btn-success">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+            <!--fim 4a coluna do grid-->
+        </div>
+        <!--fim da linha do grid-->
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
